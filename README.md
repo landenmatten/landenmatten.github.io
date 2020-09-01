@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Fake Legacy System
 
 You can use the [editor on GitHub](https://github.com/landenmatten/landenmatten.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 

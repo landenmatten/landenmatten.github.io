@@ -1,0 +1,201 @@
+/*
+ * To be used for the "classic menu" look-and-feel
+ */
+.globalnav {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	margin-right: 15px;
+	overflow: hidden;  /* allow ul.navs to be 100% width, but prevent overflowing */
+}
+
+.globalnav div {
+	padding: 0;
+	margin: 0;
+	border: 0;	
+}
+	
+.globalnav ul.nav {
+	padding: 0;
+	margin: 0;
+	padding: 0;
+
+	margin-right: -31px; /* prevents ul from being bumped down to next line in Chrome */
+	padding-left: 8px; /* indent of leftmost tab */  
+
+	position: relative;
+	float: left;
+	list-style-image: none;
+	list-style: none;
+ 	width: 100%; 	/* comment out for 2013-04 style "short" menus */
+
+    height: 15px;  
+}
+
+
+.globalnav ul.nav li {
+	margin: 0;
+	padding: 0px 0px; /* can't pad vertical; will see "gaps".  CAN pad horizontal if desired. */
+	border: 0;
+	
+	list-style-image: none;
+	list-style: none;
+	position: relative;
+	float: left;
+	top: 0;
+	margin-left: 0px; /* can increase for more horizontal space between tabs */
+	text-align: center;
+	    
+	display: table;
+	height: 15px;  
+}
+
+.globalnav ul.nav li a {
+	margin: 0;
+	border: 0;
+	padding: 0px 1px;  /* can increase horizontal padding if desired */
+		
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+
+ 	display: table-cell;
+	height: 15px; /* to match "folder edges" */
+}
+
+.globalnav ul.nav li .itemL,
+.globalnav ul.nav li .itemR {
+	margin: 0;
+	border: 0;
+	padding: 0px 0px;
+	
+	background-repeat: no-repeat;
+	overflow: hidden;
+	
+	display: table-cell;
+	height: 15px;
+	width: 8px;
+}
+
+.globalnav ul.nav li span.activeL {
+	background-position: right top;
+}
+
+.globalnav ul.nav li span.activeR {
+	background-position: left top;
+}
+
+/* Note: we start at level 1 just like the <nih:menu/> tag: not 0 like base.css!
+ * Notice that active back of level n is always the inactive back of level n+1.
+ *
+ *                     Inactive            Active 
+ *                    Back / Fore        Back / Fore     Equivalents in base.css:
+ *     ---------------------------------------------------------------
+ *     Level 1:     99CCFF / 1D4E76    006699 / FFFFFF   clsMenu0Back   
+ *     Level 2:     006699 / 99CCFF    003366 / FFFFFF   clsMenu1Back
+ *     Level 3:     003366 / FFFFFF    99CCFF / FFFFFF   clsMenu2Back
+ *     Level 4:     99CCFF / 1D4E76    006699 / FFFFFF   clsMenu3Back
+ */
+
+/* 
+ * Level 1
+ */
+
+.globalnav ul.navLevel1 {
+	background-color: #99CCFF;
+}
+
+.globalnav ul.navLevel1 li a {
+	color: #1D4E76;
+}
+
+.globalnav ul.navLevel1 li.active a {
+	color: #FFFFFF;
+	background-color: #006699;
+}
+
+.globalnav ul.navLevel1 li.active .itemL {
+	background-image: url(/commons/images/tabSpacerL.gif);
+}
+
+.globalnav ul.navLevel1 li.active .itemR {
+	background-image: url(/commons/images/tabSpacer.gif);
+}
+
+/* 
+ * Level 2
+ */
+ 
+.globalnav ul.navLevel2 {
+	background-color: #006699;
+}
+
+.globalnav ul.navLevel2 li a {
+	color: #99CCFF;
+}
+
+.globalnav ul.navLevel2 li.active a {
+	background-color: #003366;
+	color: #FFFFFF;
+}
+
+.globalnav ul.navLevel2 li.active .itemL {
+	background-image: url(/commons/images/tabSpacer2L.gif);
+}
+
+.globalnav ul.navLevel2 li.active .itemR {
+	background-image: url(/commons/images/tabSpacer2.gif);
+}
+
+/* 
+ * Level 3
+ */
+ 
+.globalnav ul.navLevel3 {
+	background-color: #003366;
+}
+
+.globalnav ul.navLevel3 li a {
+	color: #FFFFFF;
+}
+
+.globalnav ul.navLevel3 li.active a {
+	background-color: #99CCFF;
+	color: #1D4E76;
+}
+
+.globalnav ul.navLevel3 li.active .itemL {
+	background-image: url(/commons/images/tabSpacer3L.gif);
+}
+
+.globalnav ul.navLevel3 li.active .itemR {
+	background-image: url(/commons/images/tabSpacer3.gif);
+}
+
+/* 
+ * Level 4
+ */
+ 
+.globalnav ul.navLevel4 {
+	background-color: #99CCFF;
+}
+
+.globalnav ul.navLevel4 li a {
+	color: #1D4E76;
+}
+
+.globalnav ul.navLevel4 li.active a {
+	background-color: #006699;
+	color: #FFFFFF;
+}
+
+.globalnav ul.navLevel4 li.active .itemL {
+	background-image: url(/commons/images/tabSpacer4L.gif);
+}
+
+.globalnav ul.navLevel4 li.active .itemR {
+	background-image: url(/commons/images/tabSpacer4.gif);
+}

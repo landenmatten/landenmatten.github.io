@@ -1,0 +1,307 @@
+h1 {
+    color: #333333; 
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:32px;
+	}
+	
+h2 {
+    color: #003399; 
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size: 27px;
+	}
+
+h3 {
+    color: #333333; 
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:22px;
+	}
+
+h4 {
+    color: #333333;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:16px;
+	}
+
+h5 {
+	background-color:#EEEEEE;	
+	color: #333333;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:13px;
+	}
+
+h6 {
+    color: #333333;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:13px;
+	}
+	
+body {
+	background-color:#EEEEEE;	    
+	color: #333333;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:13px;
+	}
+
+
+a img { 
+	border: none;
+	}
+	
+a:link {
+    color: #0000FF; 
+	}
+  
+a:visited {
+    color: #800080;
+	}
+
+caption {
+	background-color:#CCCCCC;
+	font-weight:bold;
+}
+
+label {
+	font-weight:bold;
+}
+
+label.clc_userTextLabel {
+	font-weight: bold;
+	display: block;
+}
+label.clc_passwordTextLabel {
+	font-weight: bold;
+	display: block;
+}
+ 
+legend {
+	font-weight:bold;
+	color:#000000;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+fieldset {
+	padding: 1% 1% 1% 1%;
+}
+p.section {	
+    width:100%;
+}
+text {
+	font-size:13px;
+}
+
+.clc_userText, .clc_passwordText {
+	display: block;
+	margin-bottom: 10px;
+}
+
+ul.clc_vdsLinksList {
+	list-style-type: none;	
+	padding-left:0;
+}
+
+ul.clc_vdsLinksList li {
+	padding: 2px 0;
+}
+
+.clc_fedInstitutions {
+	margin-bottom: 10px;	
+}
+
+textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+
+th {
+	background-color:#CCCCCC;	
+}
+
+fieldset.error {
+	border-color: #F00;
+	padding: 1% 1% 1% 1%;
+}
+
+fieldset.warning {
+	border-color: #FF0;
+	padding: 1% 1% 1% 1%;
+}
+
+fieldset.inform {
+	border-color: #00F;
+	padding: 1% 1% 1% 1%;
+}
+
+li.list {
+	margin-left: -7%;
+	padding-bottom: 10px;
+	display:block;
+	list-style:none; 
+	}
+
+li.nav {
+	margin-left: -19%;
+	padding-bottom: 6px;
+	display:block;
+	list-style:none; 
+	}
+ 
+ul.nav a, ul.nav a:visited {
+    display: block;
+    color:  #0000FF;
+}
+
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+    color:  #800080;
+}
+
+
+.container {
+   width: 90%;
+   max-width: 1260px;	
+   min-width: 780px;
+   margin: 0 auto;
+   border:#666666 thin solid; 
+   background-color:#FFFFFF;
+}
+
+.fltlft {
+	float: left;
+	margin-right: 1%;
+}
+
+.fltrt {
+	float: right;
+	margin-left: 1%;
+}
+.loginlnav {
+	float: left;
+	width: 30%;
+	padding: 1%;
+}
+.lnav {
+	float: left;
+	width: 20%;
+	padding: 1%;
+}
+.subinstruction {
+	font-size:11px;
+}
+
+.tableRowOdd {
+	background-color:#EEEEFF;
+}
+
+a.expandcollapse {
+	color:#000000;
+	text-decoration:none;		
+}
+	
+.sortfltlft { 
+	float: left;
+}	
+
+.sortfltrt {  
+	float: right;
+}	
+
+a.clsMenu0Link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none; padding-right:.5%;padding-left:.5%;
+}
+a.clsMenu0LinkFocus {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; BACKGROUND-COLOR: #006699;
+}
+.clsMenu0Back {
+	BACKGROUND-COLOR: #99ccff;
+	width:100%;
+}
+.clsMenu0End {
+	VERTICAL-ALIGN: top; BACKGROUND-COLOR: #99ccff; TEXT-ALIGN: right;
+}
+.clsMenu1Back {
+	BACKGROUND-COLOR: #006699; 	width:100%;
+}	
+
+a.clsMenu1Link:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: underline;
+}
+
+a.clsMenu1LinkActive {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none; BACKGROUND-COLOR: #006699;
+}
+
+a.clsMenu1Link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #eeffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none;padding-right:.5%;padding-left:.5%;
+}
+
+a.clsMenu1LinkFocus {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; BACKGROUND-COLOR: #003366;
+}
+.clsMenu2Back {
+	BACKGROUND-COLOR: #003366;
+	width:100%;
+}
+
+a.SkipNav {
+	color: #EEEEEE;
+	font-size:9px;
+	text-decoration:none;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    height:95%;
+    BACKGROUND-COLOR: #ffffff;
+}
+.NIHfooter {
+    font-size: small;
+    color: black;
+}
+.updatefooter {
+    font-size: small;
+    color: black;
+}
+#commonsContainer {
+    background-color:#FFFFFF;
+    min-height:100%;
+    position:relative;
+}
+
+#commonsBody {
+    margin:0;
+    padding:0;
+}
+#divBody {
+    padding-bottom:45px;   /* Height of the footer */
+}
+#contentlayout_EAST {
+    padding-left:2%;
+}
+.eRABanner {
+    float: left;
+    width: 100%;
+    background: none #FFFFFF;
+    border-bottom:#666666 thin solid;
+    padding: 3px 0% 0% 0%;
+}
+.back {
+    BACKGROUND-COLOR: #525d76;
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    position:absolute;
+    bottom:70px;
+    height:2em;
+}
+div.errorMsg {
+	padding:3px 0 0 20px; 
+	background: transparent url(/commons/images/errMsg.gif) 0 0 no-repeat;
+	font-family: Arial,Helvetica,sans-serif;
+}
+div#erafooter {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:45px;
+}

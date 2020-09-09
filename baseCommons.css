@@ -1,0 +1,807 @@
+.smalltext {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.subhead1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #333399; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.date1 {
+	FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.subhead2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333399; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.backnavigation1 {
+	FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.mainBody {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.main {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.header {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: large; BACKGROUND-IMAGE: url(/images/bg-grey.gif); PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; COLOR: #0000ff; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #aaaaaa
+}
+.headerInfo {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; COLOR: #666666; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.sysInfo {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: x-small; BORDER-LEFT: 0px; COLOR: #000000; BORDER-BOTTOM: 0px
+}
+.help {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #0000ff
+}
+.menu0 {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #003366; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.menu0Active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #6699cc; TEXT-ALIGN: center
+}
+.menu1 {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #006699; TEXT-ALIGN: center
+}
+A.menu1Active:link {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bfd4e7
+}
+A.menu1Active:active {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bfd4e7
+}
+A.menu1Active:visited {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bfd4e7
+}
+.menu1Active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bfd4e7; TEXT-ALIGN: center
+}
+.menu2 {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #6699ff;
+}
+A.menu2:link {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.menu2:active {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.menu2:visited {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.menu2Active:link {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+A.menu2Active:active {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+A.menu2Active:visited {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.menu2Active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.navigation {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: top; BORDER-LEFT: 0px; COLOR: #ffffff; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #003366; TEXT-ALIGN: center
+}
+A.navigation:link {
+	FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.navigation:active {
+	FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.navigation:visited {
+	FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.formHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #666666; TEXT-ALIGN: center;
+}
+.formHeaderDisabled {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #999999; TEXT-ALIGN: left;
+}
+
+.formFooter {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #666666; TEXT-ALIGN: center; vertical-align: middle
+}
+.formFooterDisabled {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #999999; TEXT-ALIGN: center
+}
+.formTable {
+	FONT-SIZE: 12px; WIDTH: 100%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.formText {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.formLabel {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.formLabelDisabled {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #999999; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.formField {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+
+.formFieldReadOnly {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left; background-color:#F3EFE0;
+}
+
+.formFieldRight {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.pageTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #003366; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tableRowOdd {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f0f0f0 !important;
+}
+.tableRowEven {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #dddddd !important;
+}
+TD.nestedField {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.required {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.optional {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: left
+}
+.titleSub {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: gray; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 23pt; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TH.nested {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.copyright {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: x-small; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; COLOR: #000000; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+CAPTION {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.message {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsDefaultText {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsDefaultLink {
+	FONT-SIZE: 12px; COLOR: #006699; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsDefaultTextBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsFormBtn {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsErrorTextBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ff0000 ; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsSuccessTextBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #00ff40; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsMenu0Link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.clsMenu0LinkFocus {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.clsMenu0Back {
+	BACKGROUND-COLOR: #99ccff
+}
+.clsMenu0End {
+	VERTICAL-ALIGN: top; BACKGROUND-COLOR: #99ccff; TEXT-ALIGN: right
+}
+.clsMenu1LinkActive {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.clsMenu1Back {
+	BACKGROUND-COLOR: #006699
+}
+.clsMenu1Link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #99ccff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.clsMenu2Link {
+	BACKGROUND-POSITION: center 50%; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cccccc; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.clsMenu2Back {
+	BACKGROUND-COLOR: #003366
+}
+.clsMenu2BackFocus {
+	BACKGROUND-COLOR: #99ccff; TEXT-ALIGN: center
+}
+.clsMenu2LinkActive {
+	BACKGROUND-POSITION: center 50%; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #003366; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.clsMenu3BackFocus {
+	BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.clsSmallLink {
+	FONT-SIZE: 10px; COLOR: #003366; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.clsSpacerCell {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-LEFT: 0px; WIDTH: 1px; BORDER-TOP-STYLE: none; MARGIN-RIGHT: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM-STYLE: none
+}
+.clsMenu1End {
+	VERTICAL-ALIGN: top; BACKGROUND-COLOR: #006699; TEXT-ALIGN: right
+}
+.clsStaticData {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsHomepageBack {
+	BACKGROUND-COLOR: #cccccc
+}
+.clsTH {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsAltRow {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cccccc; TEXT-ALIGN: left
+}
+.clsHeaderBack {
+	BACKGROUND-COLOR: #666666; TEXT-ALIGN: left
+}
+.clsLightHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsWhiteBack {
+	BACKGROUND-COLOR: #ffffff
+}
+.clsRequiredText {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.clsFormNumberRO {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; BORDER-TOP-STYLE: none; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #aaaaaa; TEXT-ALIGN: right; BORDER-BOTTOM-STYLE: none
+}
+.clsYellowBack {
+	BACKGROUND-COLOR: #ffcc66
+}
+.clsErrorTblBorder {
+	BACKGROUND-COLOR: #990000
+}
+.sectionLabel {
+	FONT-WEIGHT: bold; COLOR: #000000; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: left
+}
+.tableHeader {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: left
+}
+.tableHeaderBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: left
+}
+.tableHeaderCenter {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: center
+}
+.tableHeaderCenterBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: center
+}
+.tableHeaderRight {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #dddddd; TEXT-ALIGN: right
+}
+.tableCellLeft {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: top; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+.tableCellRight {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.tableCellCenter {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.tableCellRightBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: right
+}
+.messageText {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: red; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left
+}
+
+.tableHeaderBlue {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #6699cc; TEXT-ALIGN: center;
+}
+
+.tableFooterBlue {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #6699cc; TEXT-ALIGN: center
+}
+
+.clsMenu3BackFocus { BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center }
+
+.clsDefaultTextGray {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+.clsFormBack {
+	BACKGROUND-COLOR: #eeeeee
+}
+.clsStepText {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 16px; FONT-WEIGHT: bold
+}
+.clsStepNumber {
+	BACKGROUND-COLOR: #ffffff; BACKGROUND-IMAGE: url(../images/stepBack.gif); BACKGROUND-REPEAT: no-repeat; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+.clsGrayBorder {
+	border: 1px solid #aaaaaa;
+}
+.clsGrayBackground {
+	background-color:#aaaaaa;
+}
+
+.backgroundReadonly {
+	background-color:#CCCCCC;
+}
+
+.smallItalictext {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial, Helvetica, sans-serif; font-style:italic
+}
+
+
+fieldset.sect508
+{
+	border-width:0px;
+	padding:0px;
+	margin:0px;
+}
+legend.sect508
+{
+	font-size:0px;
+	letter-spacing:-5px;
+	position: absolute;
+  	top: -200em;
+	left: -300em;
+}
+label.sect508, span.sect508
+{
+	position: absolute;
+  	top: -200em;
+	left: -300em;
+}
+.errorDiv {
+	padding: 2px;
+	margin: 1px;
+	padding-left: 2px;
+	border: 3px #990000 solid;
+}
+.errorMsg {
+	padding:3px 0 0 20px;
+	background: transparent url(../images/errMsg.gif) 0 0 no-repeat;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.errorSubMsg {
+	padding:3px 0 0 40px;
+	background: transparent url(../images/errMsg.gif) 20px 0 no-repeat;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.errorMsgGroup {
+	padding:3px 0 0 22px;
+	background: transparent url(../images/errMsgGroup.gif) center left no-repeat;
+	font-weight: bold;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.warningDiv {
+	padding: 3px;
+	margin: 1px;
+	padding-left: 3px;
+	border: 3px #ffcc66 solid;
+}
+.warningMsg {
+	padding:3px 0 0 23px;
+	background: transparent url(../images/warningMsg.gif) 0 0 no-repeat;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.infoDiv {
+	padding: 3px;
+	margin: 1px;
+	padding-left: 3px;
+	border: 3px #6699cc solid;
+}
+.infoMsg {
+	padding:3px 0 0 23px;
+	background: transparent url(../images/infoMsg.gif) 0 0 no-repeat;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+/*
+ * Delegation Screen(s) Styles
+ */
+.delegationCheckbox {font-weight:bold;}
+
+
+
+/*
+ * Display Tag Styles
+ */
+table.clsFreezeHeader th {
+	top: expression(parentNode.parentNode.parentNode.parentNode.scrollTop);
+}
+table.clsDTagR {
+	border-left: 1px solid white;
+	empty-cells:show;
+}
+table.clsDTagR th {
+	position: relative;
+	background-color: #79a6d2;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	color: white;
+}
+table.clsDTagR th td, table.clsDTagR td td {
+	border: none;
+}
+table.clsDTagR th td {
+	COLOR: white;
+	FONT-SIZE: 11px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	TEXT-ALIGN: center;
+}
+table.clsDTagR td {
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+}
+table.clsDTagR tr.total{
+	color:#555;
+	text-align:right;
+}
+table.clsDTagR tr.total td.drawLine {
+	white-space: nowrap;
+	vertical-align: top;
+	border-top: 1px solid #666;
+	padding-top: 5px;
+}
+.clsDTagDivBG {
+    BACKGROUND-COLOR: white;
+}
+.lockDisplayTagSpan {
+	top: expression(parentNode.scrollTop);
+	position: relative;
+	background-color: #C0C0C0;
+}
+.clsDTagPaging {
+    BACKGROUND-COLOR: #C0C0C0;
+}
+.DisplayTagTableHeader {
+	COLOR: white;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	TEXT-ALIGN: center;
+	TEXT-DECORATION: bold;
+	HEIGHT: 15px;
+}
+/*.sortable {
+	FONT-WEIGHT: bold;
+	HEIGHT:15px;
+}
+.tableRowOdd {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #efefef;
+}
+.tableRowEven {
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #dfdfdf;
+}*/
+.pagebanner {
+	FONT-WEIGHT: italic;
+}
+.pagelinks {
+	FONT-WEIGHT: italic;
+}
+.cls11Pt { FONT-SIZE: 11px; }
+.clsGrayBorder { BORDER: #666666 1px solid; }
+.clsDTagDivBG { BACKGROUND-COLOR: white; }
+A {
+	COLOR: #003366;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+IMG {
+	BORDER: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+	color: #000000;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:32px;
+	}
+
+h2 {
+    color: #000000;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size: 27px;
+	}
+
+h3 {
+    color: #000000;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:24px;
+	}
+
+h4 {
+    color: #000000;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:18px;
+	}
+
+h5 {
+    background-color:#F4F4E8;
+	color: #000000;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:12px;
+	}
+h6 {
+    color: #000000;
+	font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+	font-size:12px;
+	}
+
+a  {
+	border: none;
+	}
+
+.container {
+   	width: 100%;
+   	max-width: 1260px;
+   	min-width: 780px;
+   	margin: 0 auto;
+   	background-color:#FFFFFF;
+	}
+
+.lnav {
+    float: left;
+    width:20%;
+    padding: 1% 1% 1% 1%;
+   	border-right:#000000 thin inset;
+	}
+
+.content {
+    float: left;
+    width: 98%;
+    padding: 1% 1% 1% 1%;
+   }
+
+.rnav {
+    float: left;
+    width: 20%;
+    padding: 1% 1% 1% 1%;
+	}
+
+.subinstruction {
+	font-size:11px;
+	}
+
+.DHHSLogo {
+    float: none;
+	width: 100%;
+	height: 42px;
+	padding-bottom:.5%;
+ 	background-image:url(/commons/images/hhs_headbar_mid.gif);
+	background-repeat:repeat-x;
+	}
+
+.eRABanner {
+	float: left;
+	width: 98%;
+    padding: 0% 1% 0% 1%;
+	}
+
+.globalnav {
+    float: left;
+    width: 100%;
+	}
+
+.fltrt {
+	float: right;
+	margin-left: 1%;
+	}
+
+.fltlft {
+	float: left;
+	margin-right: 1%;
+	}
+.bnav {
+    position: relative;
+    clear: both;
+    width: auto;
+    padding: 2% 1% 0% 1%;
+	font-size: 11px;
+	}
+
+.NIHBWfooter {
+    float: left;
+    width: auto;
+    height: 30px;
+    padding: 1% 0% 1% 1%;
+	}
+
+.NIHfooter {
+    float: left;
+    width: auto;
+    height: 30px;
+    font-size: 10px;
+    padding: 1% 2% 1% 1%;
+	}
+
+.DHHSBirdfooter {
+    float: left;
+    width: auto;
+    height: 30px;
+    padding: 1% 0% 1% 1%;
+	}
+
+.DHHSfooter {
+    float: left;
+    width: auto;
+    height: 30px;
+    font-size: 10px;
+    padding: 1% 2% 1% 1%; ;
+	}
+
+.updatefooter {
+    float: left;
+    width: auto;
+    height: 30px;
+    font-size: 10px;
+    padding: 1% 2% 1% 1%;
+	}
+
+.grantsfooter {
+    float: none;
+    width: auto;
+    height: auto;
+    padding: 0% 1% 1% 80%;
+	}
+
+.ajaxErrorMsg {
+	padding:3px 0 0 20px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #ff0000;
+}
+.ajaxErrorMsgWithoutBackground {
+	padding:3px 0 0 20px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #ff0000;
+}
+
+table.border-collapsed {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+table.border-collapsed tr {
+	border: 1px solid black;
+}
+table.border-collapsed th {
+	border: 1px solid black;
+	padding: 10px;
+}
+table.border-collapsed td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+
+/*** native modal dialog ***/
+/* The Modal (background) */
+	.native-modal {
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  padding-top: 100px; /* Location of the box */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  
+	  *position: absolute;
+	  *width: 520px;
+	  *height: 340px;
+	  *padding-top: 0;
+	  *left: 50%;
+	  *top: 100px;
+	  *margin: 0 0 0 -260px;
+	}
+
+	
+	/* Modal Content */
+	.native-modal-content {
+	  background-color: #fefefe;
+	  margin: auto; /* 15% from the top and centered */
+	  padding: 0;
+	  border: 1px solid #c84f05;
+	  border-radius: 6px;
+	  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+	  overflow-x: hidden;
+	  overflow-y: auto;
+	  z-index: 1050;
+	  /*width: 80%; /* Could be more or less, depending on screen size */
+	}
+	
+	.native-modal-header {
+	  padding: 1px 16px;
+	  background-color: #fff1e1;
+	  color: #823e09;
+	  font-size: 19px;
+	  font-weight: bold;
+	  border-top-left-radius: 6px;
+	  border-top-right-radius: 6px;
+	}
+	
+	.native-modal-body {padding: 15px 16px;}
+		.native-modal-body h4 span.time-text {
+			color: #184e80;
+			font-size: 1.2em;
+		}
+	
+	.native-modal-footer {
+	  padding: 20px 16px;
+	  background-color: #fff;
+	  color: #823e09;
+	  border-bottom-left-radius: 6px;
+	  border-bottom-right-radius: 6px;
+	  border-top: 1px solid #eee;
+	  text-align: right;
+	}
+	.native-modal-footer .modalbtn {
+		display: inline-block;
+		font-weight: normal;
+		text-align: center;
+		vertical-align: middle;
+		cursor: pointer;
+		border: 1px solid transparent;
+		white-space: nowrap;
+		padding: 10px 16px;
+		font-size: 18px;
+		line-height: 1.33;
+		border-radius: 6px;
+		margin-left: 5px;
+	}	
+	.native-modal-footer .btn-first {
+		color: #fff;
+		background-color: #184e80;
+		border-color: #0a2237;
+	}
+	.native-modal-footer .btn-first:hover {
+		color: #fff;
+		background-color: #0a2237;
+		border-color: #000;
+	}
+	.native-modal-footer .btn-first:active,
+	.native-modal-footer .btn-first:focus {
+		color: #fff;
+		background-color: #103455;
+		border-color: #0a2237;
+	}
+	.native-modal-footer .btn-second {
+		color: #333;
+		background-color: #fff;
+		border-color: #ccc;
+	}
+	.native-modal-footer .btn-second:hover {
+		color: #333;
+		background-color: #d4d4d4;
+		border-color: #8c8c8c;
+	}
+	.native-modal-footer .btn-second:active,
+	.native-modal-footer .btn-second:focus {
+		color: #333;
+		background-color: #e6e6e6;
+		border-color: #adadad;
+	}
+	@media screen and (min-width: 768px) {
+		.native-modal-content {
+		width: 600px;
+		margin: 30px auto;
+		}
+	}

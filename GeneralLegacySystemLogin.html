@@ -137,41 +137,7 @@
  			
 
 
-
-
-<script type="text/javascript">
-
-
-
-
-window.addEventListener("load",function () {
 	
-	document.getElementById("password-btn").onclick = function(event) {
-		  var x = document.getElementById("clc_password");
-		  if (x.type === "password") {
-		    x.type = "text";
-		  } else {
-		    x.type = "password";
-		  }
-		  
-		  event.preventDefault();
-		  return false;
-	};
-
-	
-	var elem = document.getElementById("password-btn").getElementsByTagName("i")[0];
-	
-	elem.onclick = function() {
-		
-		this.classList.toggle('fa-eye-slash');
-		this.classList.toggle('fa-eye');
-		return false;
-	}
-	
-}, false);
-
-
-</script>	
 
 			<h4 class="clc_headerText">Login with Credentials 
 				
